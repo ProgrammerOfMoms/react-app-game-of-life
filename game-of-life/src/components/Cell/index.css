@@ -1,0 +1,19 @@
+.cell {
+    border: 1px solid #444;
+    border-right: none;
+    border-bottom: none;
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  
+.cell:last-child {
+    border-right: 1px solid #444;
+  }
+  
+.row:last-child .cell {
+    border-bottom: 1px solid #444;
+  }
+  
+.cell.alive {
+    background-color: #00FF00;
+  }
